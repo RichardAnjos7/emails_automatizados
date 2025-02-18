@@ -57,7 +57,8 @@ Antes de executar o script, certifique-se de que possui:
 - Certifique-se de que os arquivos necessários (`emails.xlsx` e `Curriculo.pdf`) estão no mesmo diretório do script.
 - O script utiliza `keyring` para armazenar credenciais de forma segura.
 - Caso ocorra um erro no envio, verifique se as permissões de segurança do Gmail permitem o uso de aplicativos menos seguros.
+- Dica: Se quiser automatizar o envio dos e-mails, pode criar um executável do script (usando pyinstaller) e agendá-lo no Agendador de Tarefas do Windows para rodar no horário desejado. Isso permite enviar os e-mails automaticamente sem precisar executar manualmente o script.
 
 ---
 
-**Desenvolvido por:** Richard Anjos
+**Desenvolvido por:** Richard dos Anjos Oliveira
