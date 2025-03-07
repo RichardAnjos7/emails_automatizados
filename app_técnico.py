@@ -30,6 +30,8 @@ def send_email(to, subject, body, attachment, smtp_user, smtp_password, nome):
         print(f"Erro ao enviar o e-mail para empresa {nome}: Cargo: {subject}: E-mail{to}: {e}")
     except Exception as e:
         print(f"Erro desconhecido: {e}")
+    finally:
+        yag.close()
 
 # Função para gerar corpo do e-mail
 def generate_email_body(row):
